@@ -2,8 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## v2.3.3 - unreleased
+## v2.3.4 - unreleased
 
+## v2.3.3 - 2020-03-17
+Updated the jackson-databind dependency to 2.10.2, which addresses latest known potential security issues.
+
+Prevented the possibility of template variable injection in SCIM2 SDK POST search
 
 ## v2.3.2 - 2019-10-04
 Updated the jackson-databind dependency to 2.9.10, which addresses latest known potential security issues.
